@@ -276,14 +276,12 @@ class _ToDoAppState extends State<ToDoApp> {
     return Scaffold(
       resizeToAvoidBottomInset: true,
       appBar: AppBar(
-        backgroundColor: const Color.fromRGBO(2, 167, 177, 1),
+        backgroundColor: Colors.purple,
         centerTitle: true,
         title: Text(
           "TO-DO APP",
-          style: GoogleFonts.quicksand(
-            fontWeight: FontWeight.w700,
-            fontSize: 25,
-          ),
+          style:
+              GoogleFonts.quicksand(fontWeight: FontWeight.w700, fontSize: 25),
         ),
       ),
       body: ListView.builder(
